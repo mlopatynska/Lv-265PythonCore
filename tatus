@@ -1,0 +1,62 @@
+[33mcommit 7af3bcf0d4a5b9f664cd63200bbb5c8d57e7ceef[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: c94c76b 0e44d03
+Author: Viktor Mytsa <tomoemulo1@gmail.com>
+Date:   Fri Sep 15 20:06:33 2017 +0300
+
+    Merge branch 'master' of https://github.com/mlopatynska/Lv-265PythonCore
+
+[33mcommit 0e44d03726d7fd10ea566fc0934fe08df8a83cfe[m
+Merge: 50beadf 9426c0c
+Author: IhorMar <rmg1203@gmail.com>
+Date:   Fri Sep 15 20:05:59 2017 +0300
+
+    Merge branch 'master' of https://github.com/mlopatynska/Lv-265PythonCore
+
+[33mcommit 9426c0cb72738e17fcd3e5e54a8338a1ceba99b7[m
+Merge: 784fa07 312a951
+Author: Yurii Dubina <ydubitc@training.local>
+Date:   Fri Sep 15 20:05:36 2017 +0300
+
+    Merge branch 'master' of https://github.com/mlopatynska/Lv-265PythonCore
+
+[33mcommit 312a951182ac065229d4a7727e8da368e1a30187[m
+Author: mlopat <mlopatynska@gmail.com>
+Date:   Fri Sep 15 20:00:58 2017 +0300
+
+    my Hello
+
+[33mcommit 50beadfa7318fd1c13805814360fdcb1bfb079f2[m
+Author: IhorMar <rmg1203@gmail.com>
+Date:   Fri Sep 15 19:59:34 2017 +0300
+
+    myIhorMar.txt
+
+[33mcommit 784fa07a80979de0af9c3874b50aa3796b8b72e7[m
+Author: Yurii Dubina <ydubitc@training.local>
+Date:   Fri Sep 15 19:58:22 2017 +0300
+
+    Pushing to remote rep
+
+[33mcommit c94c76b5cfc942186d0fc243e3fd67d608829c2f[m
+Author: Viktor Mytsa <tomoemulo1@gmail.com>
+Date:   Fri Sep 15 19:57:59 2017 +0300
+
+    my hello file
+
+[33mcommit f8d220201ed143f936bebb339e41b49f9f96e694[m
+Author: mlopat <mlopatynska@gmail.com>
+Date:   Fri Sep 15 13:14:49 2017 +0300
+
+    Hello file
+
+[33mcommit f800cbf09ca26781b979225541b1ce2a7a53f5f8[m
+Author: mlopatynska <mlopatynska@gmail.com>
+Date:   Fri Sep 15 12:43:20 2017 +0300
+
+    Create .gitignore
+
+[33mcommit c06f8ceb3f66187fa4de351cfa08a41eeaa8a0e9[m
+Author: mlopatynska <mlopatynska@gmail.com>
+Date:   Fri Sep 15 12:37:52 2017 +0300
+
+    Initial commit
