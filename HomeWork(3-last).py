@@ -1,4 +1,4 @@
-# a = ln|(y - sqrt(|x|)(x - (y / (z + (x^2 / 4))))
+# a = ln|(y - sqrt(|x|)(x - (y / (z + (x^2 / 4))))|
 # b = x - (x^2 / 3!) + (x^5 / 5!)
 
 import math as m
@@ -13,4 +13,3 @@ print ("a answer is: " + str(a))
 b = (x - (m.pow(x,2) / m.factorial(3)) + (pow(x,5) / m.factorial(5)))
 
 print ("b answer is: " + str(b))
-
