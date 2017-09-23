@@ -1,9 +1,0 @@
-"Hi!" 
-Hello, I am Viktor 
-Hi, I am IhorMar.
---test
-Hi, Taras
-Hi, I am Mary :)
-Hi, I'm Yurij
--->test
-Hi, I'm another Yurii
