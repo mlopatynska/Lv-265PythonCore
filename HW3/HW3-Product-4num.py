@@ -1,10 +1,13 @@
-a = 1234
-b = a % 10
-a = a/10
-c = a % 10
-a = a/10
-d = a % 10
-a = a/10
-e = a % 10
+a = 423106
+z = a
+b = z % 10
+z = z/10
+c = z % 10
+z = z/10
+d = z % 10
+z = z/10
+e = z % 10
 print(a)
-print(b*c*d*e)
+print "Product of all numbers", b*c*d*e
+print "Reverse", str(a)[::-1]
+print sorted(str(a))
