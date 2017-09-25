@@ -1,13 +1,14 @@
-fig = raw_input("Enter figure with 4 digit: ")
-fig1 = fig[0]
-fig2 = fig[1]
-fig3 = fig[2]
-fig4 = fig[3]
-rez = "int(fig1) * int(fig2) * int(fig3) * int(fig4)"
-print eval(rez)
-rev = fig[::-1]
-print "Your reverse figure is: {}".format(rev)
-
-sor = sorted(fig)
-sor_rez = ''.join(sor)
-print "Our sorted figure: {}".format(sor_rez)
+a = input("Enter natural number with 4 digit only with figures(1,2,3,4,5,6,7,8,9): ")
+dil = 10
+a1 = a % dil
+a2 = (a / dil) % dil
+a3 = (a / dil ** 2) % dil
+a4 = (a / dil ** 3) % dil
+rez_nat = a1 * a2 * a3 * a4
+print "Product of natural number = {}".format(rez_nat)
+rez_nat = str(a)
+rev_nat = rez_nat[::-1]
+print "Your reverse natural number is: {}".format(rev_nat)
+sor_nat = sorted(rez_nat)
+sor_rez_nat = ''.join(sor_nat)
+print "Our sorted figure: {}\n\n".format(sor_rez_nat)
