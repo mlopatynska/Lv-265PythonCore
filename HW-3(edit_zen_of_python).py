@@ -19,6 +19,6 @@ a = """Beautiful is better than ugly.
 
 print ("in the text: \nbetter have {} words, \nnever have {} words, \nis have {} words\n".format(a.count("better"), a.count("never"), a.count("is")))
 
-print "output text in uppercase: ", a.upper()
+print "output text in uppercase: \n", a.upper()
 
-print "output text with replace i to &: ", a.replace('i', '&')
+print "output text with replace i to &: \n", a.replace('i', '&')
