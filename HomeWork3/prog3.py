@@ -1,7 +1,5 @@
-a=11
-b=9
-b=a+b
-a=b-a
-print "a=", a
-b=b-a
-print "b=", b
+print "dtfyf"
+h=56789
+c=str(h)
+sorted(c)
+print (c)
