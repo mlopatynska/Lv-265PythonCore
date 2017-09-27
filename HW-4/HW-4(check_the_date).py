@@ -1,5 +1,3 @@
-import datetime
-
 day = int(raw_input("day: "))
 month = int(raw_input("month: "))
 year = int(raw_input("year: "))
@@ -28,3 +26,4 @@ if month < 13:
             print "date is NOT correct"
 else:
     print "date is NOT correct"
+print "you input: \nday is {}\nmonth is {}\nyear is {}".format(day, month, year)
