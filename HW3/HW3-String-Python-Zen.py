@@ -10,3 +10,4 @@ print "The quantity of \"never\" is", a.count("never")
 print "The quantity of \"is\" is", a.count("is")
 print a.upper()
 print a.replace("i","&")
+
