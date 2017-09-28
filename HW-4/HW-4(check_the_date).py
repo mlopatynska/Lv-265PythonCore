@@ -1,6 +1,7 @@
 day = int(raw_input("day: "))
 month = int(raw_input("month: "))
 year = int(raw_input("year: "))
+<<<<<<< HEAD
 if 0 < month < 13:
     if month % 2 == 0:
         if month == 2:
