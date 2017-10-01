@@ -18,7 +18,7 @@ check = True
 for k in range(j+1, j+len(seq)):
 if text[k]!=seq[k-j]):
 check = False
-if check: s = s+1
+if check: s += 1
 
 
 print ("In the text "{}" sequence of symbols "{}" happens {} times).format(text, seq, s)
