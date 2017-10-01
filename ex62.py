@@ -1,14 +1,9 @@
-a = int(raw_input("Enter A:"))
+a = int(raw_input("Enter A>1:"))
 
-x = True 
-for k in range(2, a-1):
-while x:
+for k in range(2, a):
 if a%k == 0:
-x = False
-else:
-x = True
-
-if x:
-print ("{} is a PRIME number").format(a)
-else:
 print ("{} is a COMPOSITE number").format(a)
+break
+
+else:
+print ("{} is a PRIME number").format(a)
