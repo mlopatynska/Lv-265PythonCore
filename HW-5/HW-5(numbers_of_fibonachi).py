@@ -1,9 +1,11 @@
-num = raw_input("input numbers: ")
+num = int(raw_input("input numbers: "))
+
+a = 0
+b = 1
+
+for i in range(2, num + 1):
+    c = a + b
+    a, b = b, c
+    print c
 
 
-res1 = 1
-n = num - 1
-for n in range(1, n):
-    res = 1
-    res1 = res1 + res
-print res1
