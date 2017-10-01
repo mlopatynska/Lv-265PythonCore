@@ -8,4 +8,4 @@ while n < rg:
     res = int(num[n])
     res1 = res1 + (res**3)
     n += 1
-print "sum cubes of number {} is: {}".format(num ,res1)
+print "sum cubes of number {} is: {}".format(num, res1)
