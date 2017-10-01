@@ -10,7 +10,7 @@ s = 0
 while krok<(10**(-5)):
 krok = k*(k+1)*(x**k)
 s = s + krok
-k = k+1
+k += 1
 
 else:
 print ("S= {}").format(s)
