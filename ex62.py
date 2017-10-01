@@ -3,7 +3,7 @@ a = int(raw_input("Enter A:"))
 x = True 
 for k in range(2, a-1):
 while x:
-if a%i == 0:
+if a%k == 0:
 x = False
 else:
 x = True
