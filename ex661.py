@@ -1,4 +1,4 @@
-from math import abs
+from math import fabs
 
 x = float(raw_input("Enter x:"))
 
