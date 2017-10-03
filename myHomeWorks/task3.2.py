@@ -4,8 +4,12 @@ n = int(n)
 lastDigit = 0
 sum = 0
 
-lastDigit = n%10
-n = n/10 
-sum = sum+lastDigit
-    
+while n:
+    lastDigit = n%10
+    n = n/10
+    sum = sum+lastDigit
+    print "lastDigit={}, n = {}, sum = {}".format(lastDigit, n, sum)
+
 print (sum)
+
+
