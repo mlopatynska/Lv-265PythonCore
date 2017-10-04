@@ -6,36 +6,34 @@ y = float(raw_input("input number y: "))
 z = float(raw_input("input number z: "))
 
 st = []
-for el in range(1, 21):
+for el in range(0, 31):
     st.append(el)
-# print st
-"""proverka st spiska 1 - 30"""
+r_st = st[::-1]
+# print r_st
+"""proverka r_st spiska 0 - 30"""
 
-def ymnoz_a_b(st, a, x):
-    """function dla rjada a1*x^30 + a2*x^29 +  .."""
-    n = 0
-    res = 0
-    while n <= 20:
-        r_st = st[::-1] # mozna vynesty na globalny zminu
+n = 0
+res = 0
+
+def ymnoz_a_b(n, res, r_st, a, x):
+    """function dla rjada a1*x^30 + a2*x^29 +  .. i dla b y"""
+    while n <= 30:
         pw = int(r_st[n])
         res = res + (int(a[n]) * (x ** pw))
         n += 1
         return res
-# print ymnoz_a_b(st, a, x)
+# print ymnoz_a_b(n, res, r_st, a, x)
 """proverka raboty function (ymnoz_a_b)"""
 
-def znamenyk(st, c, x, z):
-    n = 0
-    res = 0
-    while n <= 20:
-        r_st = st[::-1] # mozna vynesty na globalny zminu
+def znamenyk(n, res, r_st, c, x, z):
+    while n <= 30:
         pw = int(r_st[n])
-        res = res + (int(c[n]) * ((x + z)**pw))
-        n +=1
+        res = res + (int(c[n]) * ((x + z) ** pw))
+        n += 1
         return res
 # print znamenyk(st, c, x, z)
 """proverka raboty function (znamenyk)"""
 
-global_res = (((ymnoz_a_b(st, a, x)) ** 2) - ((ymnoz_a_b(st, b, y))) / (znamenyk(st, c, x, z)))
+global_res = (((ymnoz_a_b(n, res, r_st, a, x)) ** 2) - ((ymnoz_a_b(n, res, r_st, b, y))) / (znamenyk(n, res, r_st, c, x, z)))
 
 print global_res
