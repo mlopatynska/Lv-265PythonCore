@@ -7,4 +7,3 @@ for i in range(2, num):
         break
 else:
     print("you input prime number")
-

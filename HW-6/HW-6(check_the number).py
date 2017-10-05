@@ -1,0 +1,12 @@
+num = int(raw_input("input number: "))
+
+def prime(num):
+    i = 2
+    for i in range(2, num):
+        if num % i == 0:
+            print("you input NOT prime number")
+            break
+    else:
+        print("you input prime number")
+
+prime(num)
