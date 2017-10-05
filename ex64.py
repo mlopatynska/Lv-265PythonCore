@@ -1,3 +1,5 @@
+def sum_of_cubes(a):
+
 a = int(raw_input("Enter A:"))
 
 s=0
@@ -8,3 +10,5 @@ a = a//10
 
 else:
 print ("The sum of the cubes of digits of number{}: {}").format(a, s)
+
+sum_of_cubes(7634)

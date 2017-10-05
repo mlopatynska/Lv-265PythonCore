@@ -1,3 +1,5 @@
+def text_check(text, seq):
+
 text = raw_input("Enter text:")
 seq = raw_input("Enter sequence of symbols:")
 
@@ -22,3 +24,5 @@ if check: s += 1
 
 
 print ("In the text "{}" sequence of symbols "{}" happens {} times).format(text, seq, s)
+
+text_check (ukef klejf uksdaf kefjhr, uk)
