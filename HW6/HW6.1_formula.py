@@ -1,7 +1,7 @@
 def list(parameter, variable):
     s=0
-    for i in range(3):
-        s = s + parameter*(variable**(2-i))
+    for i in range(31):
+        s = s + parameter*(variable**(30-i))
     return s
 
 a = float(raw_input("Enter a: "))
