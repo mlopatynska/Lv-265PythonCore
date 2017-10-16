@@ -8,7 +8,6 @@ GREEN = (0, 255, 0)
 RED = (255, 0, 0)
 
 class Rectangle():
-
     def __init__(self):
         self.x = random.randint(0, 500)
         self.y = random.randint(0, 500)
@@ -57,8 +56,6 @@ my_list = []
 for i in range(500):
     my_object = Rectangle()
     my_list.append(my_object)
-
-for i in range(500):
     my_object = Ellipse()
     my_list.append(my_object)
 
