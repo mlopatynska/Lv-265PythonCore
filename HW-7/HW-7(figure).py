@@ -36,8 +36,7 @@ class Ellipse(Rectangle):
         width = self.width
         height = self.height
         color = self.color
-        pygame.draw.ellipse(screen, color,(x, y, width, height))
-
+        pygame.draw.ellipse(screen, color, (x, y, width, height))
 
 pygame.init()
 
@@ -58,7 +57,6 @@ for i in range(500):
     my_list.append(my_object)
     my_object = Ellipse()
     my_list.append(my_object)
-
 
 # -------- Main Program Loop -----------
 while not done:
