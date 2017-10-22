@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{username}}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body style="background-image: url(static/fon.png);" >
+<a href="{{url_for('home')}}" title="home">Page Home</a>
+<a href="{{url_for('login')}}" title="login">Page Login</a>
+<a href="{{url_for('about')}}" title="about">Page About</a>
+
+
+<h1>Its place for Login Form. Username = {{username}}</h1>
+<br>
+<b>----HTMLka from presentation---</b>
+{% if username %}
+  <h1>Hello {{ username }}!</h1>
+{% else %}
+  <h1>Hello, World!</h1>
+{% endif %}
+<br>
+
+
+
+</body>
+</html>
