@@ -1,4 +1,4 @@
-body{background-image: url(../img/fon.png); max-width: 990px; margin: auto; vlink=#cecece; alink=#ff0000; bgcolor=black;}
+body{background-image: url(../static//fon.png); max-width: 990px; margin: auto; vlink=#cecece; alink=#ff0000; bgcolor=black;}
 header{padding: 10px; background-color: yellow; margin-top: 1%; font-size: 18px; word-spacing: 15px; text-align: center; position: relative;}
 
 a:hover {font-style: italic;}

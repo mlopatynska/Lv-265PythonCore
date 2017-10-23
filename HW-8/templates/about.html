@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <title>Viktor Page</title>
 	<style>
-	a:hover {font-style: italic;}
 	</style>
-<link rel="stylesheet" type="text/css" href="url('static', filename='style.css')">
+  <link rel="stylesheet" type="text/css" href="../static/style.css">
 
 </head>
 
 <body >
 
-	<header style="background-color: yellow; margin-top: 1%;  cover:100%; font-size: 18px; word-spacing: 15px; text-align:center; position: relative; padding: 10px;">
+	<header>
 
-		<a href="{{url_for('home')}}" title="home" style="text-decoration: none;   color: #000; ">HOME</a>
-		<a href="{{url_for('login')}}" title="skills"style="text-decoration: none;  color: #000; word-spacing: 1px">SKILLS</a>
-		<a href="{{url_for('about')}}" title="about game"style="text-decoration: none;  color: #000; word-spacing: 1px">ABOUT GAME</a>
+		<a href="{{url_for('home')}}" title="home" >HOME</a>
+		<a href="{{url_for('login')}}" title="skills">SKILLS</a>
+		<a href="{{url_for('about')}}" title="about game">ABOUT GAME</a>
 
 	</header>
 
@@ -26,9 +25,9 @@
 			ABOUT GAME
 		</h1>
 	</div>
-<table style="min-width: 100%;">
-		<tr style="background-color: white; text-align:left; color:black; font-size: 14px;">
-	<td style="width: 65%; padding:10px; ">
+<table >
+		<tr >
+	<td style="width: 65%;">
 
 		<h2> ABOUT GAME</h2>
 
@@ -49,7 +48,7 @@
 
 
 
-		<h3 style="text-align: center; color: black;">
+		<h3 >
 			POWER WITH FLASK
 		</h3>
 		<div  style="font-size: 10px;">
