@@ -2,16 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>about game</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Viktor Page</title>
+	<style>
+	a:hover {font-style: italic;}
+	</style>
+    <link rel="stylesheet" type="text/css" href="url_for('static', filename='style.css')">
+
 </head>
-<body style="background-image: url(static/fon.png);" >
-<a href="{{url_for('home')}}" title="home">Page Home</a>
-<a href="{{url_for('login')}}" title="login">Page Login</a>
-<a href="{{url_for('about')}}" title="about">Page About</a>
 
-<h1>тут буде ігруха, сподіваюсь</h1>
+<body style="background-image: url(img/fon.png); max-width: 990px; margin: auto;" vlink="#cecece" alink="#ff0000" bgcolor="black">
+
+	<header style="background-color: yellow; margin-top: 1%;  cover:100%; font-size: 18px; word-spacing: 15px; text-align:center; position: relative; padding: 10px;">
+
+		<a href="{{url_for('home')}}" title="home" style="text-decoration: none;   color: #000; ">HOME</a>
+		<a href="{{url_for('login')}}" title="skills"style="text-decoration: none;  color: #000; word-spacing: 1px">SKILLS</a>
+		<a href="{{url_for('about')}}" title="about game"style="text-decoration: none;  color: #000; word-spacing: 1px">ABOUT GAME</a>
+
+	</header>
+
+	<div style="text-align:center;">
+
+		<h1 style=" color: white;">
+			ABOUT GAME
+		</h1>
+	</div>
+<table style="min-width: 100%;">
+		<tr style="background-color: white; text-align:left; color:black; font-size: 14px;">
+	<td style="width: 65%; padding:10px; ">
+
+		<h2> ABOUT GAME</h2>
+
+			<p>Думаю тут буде мега игруха</p> напевно<br>
+
+	</td>
+
+	<td style="width: 30% padding:6px; vertical-align: 0px;">
+
+        <h2>Photo of game</h2>
+
+        <br>
+
+	</td>
+		</tr>
+
+	<td colspan= "2" style="background-color: yellow;  cover:100%; padding: 5px; top: 200px; ">
 
 
+
+		<h3 style="text-align: center; color: black;">
+			POWER WITH FLASK
+		</h3>
+		<div  style="font-size: 10px;">
+
+			Desing by<div style="font-size: 14px;">Viktor Mytsa</div>
+
+		</div>
+</td>
+</table>
 </body>
 </html>
