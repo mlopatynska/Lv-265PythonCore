@@ -1,3 +1,36 @@
+body {
+    background-color: black;
+    }
+#main {
+display: flex;
+justify-content: space-around;
+    }
+a {
+    color: white;
+    font-size : 40px;
+    text-decoration: none;
+}
+
 h1 {
-    color: red;
+margin-left: 15px;
+color : white;
+font-size : 40px;
+}
+
+p,li {
+color : white;
+font-size : 20px;
+}
+
+#aboutme-pic{
+    float: right;
+    margin: 20px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.jumbotron {
+background-color: inherit;
 }
