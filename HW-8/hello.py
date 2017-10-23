@@ -8,7 +8,7 @@ def home():
 
 
 @app.route('/login/')
-@app.route('/login', methods=['GET', 'POST'])
+# @app.route('/login', methods=['GET', 'POST'])
 @app.route('/login/<name>')
 def login(username=None):
     return render_template("login.html", username=username)
@@ -20,11 +20,11 @@ def about(username=None):
     return render_template("about.html", username=username)
 
 
-@app.route('/')
-def index():
-    if 'username' in session:
-        return 'Logged in as %s' % escape(session['username'])
-    return 'You are not logged in'
+# @app.route('/')
+# def index():
+#     if 'username' in session:
+#         return 'Logged in as %s' % escape(session['username'])
+#     return 'You are not logged in'
 
 
 
