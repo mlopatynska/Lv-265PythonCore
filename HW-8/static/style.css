@@ -1,6 +1,16 @@
-body{background-image: url(img/fon.png); max-width: 990px; margin: auto;}
+body{background-image: url(../img/fon.png); max-width: 990px; margin: auto; vlink=#cecece; alink=#ff0000; bgcolor=black;}
+header{padding: 10px; background-color: yellow; margin-top: 1%; font-size: 18px; word-spacing: 15px; text-align: center; position: relative;}
+
 a:hover {font-style: italic;}
-a{text-decoration: none; color: #000;}
+a{text-decoration: none;  color: #000; word-spacing: 1px}
+h1{color: white; text-align: center;}
+h2{text-align: center;}
+h3{text-align: center; color: black;}
+table{min-width: 100%;}
+tr{background-color: white; text-align: left; color: black; font-size: 14px;}
+td{padding: 10px;}
+
+
 
 
 

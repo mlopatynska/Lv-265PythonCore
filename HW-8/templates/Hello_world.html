@@ -1,120 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="UTF-8">
-
-
   <title>Viktor Page</title>
-  <style>
-	a:hover {font-style: italic;}
-	</style>
-
-  <link rel="stylesheet" type="text/css" href=url(../static/style.css)">
+  <link rel="stylesheet" type="text/css" href="../static/style.css">
 </head>
 
+<body >
 
-<body style="margin: auto; background-image: url(../img/fon.png); max-width: 990px;" alink="#ff0000" bgcolor="black" vlink="#cecece">
-
-
-	<header style="padding: 10px; background-color: yellow; margin-top: 1%; font-size: 18px; word-spacing: 15px; text-align: center; position: relative;">
-		<a href="{{url_for('home')}}" title="home" style="text-decoration: none;   color: #000; ">HOME</a>
-		<a href="{{url_for('login')}}" title="skills"style="text-decoration: none;  color: #000; word-spacing: 1px">SKILLS</a>
-		<a href="{{url_for('about')}}" title="about game"style="text-decoration: none;  color: #000; word-spacing: 1px">ABOUT GAME</a>
+	<header >
+		<a href="{{url_for('home')}}" title="home" >HOME</a>
+		<a href="{{url_for('login')}}" title="skills">SKILLS</a>
+		<a href="{{url_for('about')}}" title="about game">ABOUT GAME</a>
 	</header>
 
-	
-<div style="text-align: center;">
+        <h1 >HOME PAGE</h1>
 
-		
-<h1 style="color: white;">
-			HOME PAGE
-		</h1>
+            <table>
+                    <tbody>
+                <tr>
 
-	</div>
+                    <td style="width: 65%;">
+                      <h2>About me</h2>
+                                    Birthday: 10 July 1986<br>
+                                    From Mykolayiv<br>
+                                    Married since 15 November 2008, has son 2 years old<br>
+                          <ul>
+                            <li>Work experience: &nbsp;&nbsp;</li>
+                          </ul>
 
-<table style="min-width: 100%;">
+                                    Chief Technician at Commercial Vehicle Group, Inc.<br>
 
-		<tbody>
-    <tr style="background-color: white; text-align: left; color: black; font-size: 14px;">
 
-	<td style="padding: 10px; width: 65%;">
-      <h2 style="text-align: center;"> About me</h2>
-Birthday:
-10 July 1986
-      <br>
-From Mykolayiv<br>
-Married since 15 November 2008, has son 2 years old<br>
-      <ul>
-        <li>Work experience: &nbsp;&nbsp;</li>
-      </ul>
-
-    Chief Technician at Commercial Vehicle Group, Inc.<br>
-
-        
-      <p>Past: &nbsp;Chervonograd gimnasium</p>
+                                     <p>Past: &nbsp;Chervonograd gimnasium</p>
 
 
 
-      <ul>
-        <li>Studied:</li>
-      </ul>
-
-        
-      <ol start="1">
-        <li>&nbsp; &nbsp; &nbsp; &nbsp;Physology at NU "Lviv Polytechnic"</li>
-        <li>&nbsp; &nbsp; &nbsp; &nbsp;Ivan Franko National University of Lviv</li>
-        <li>&nbsp; &nbsp; &nbsp; &nbsp;Mykolaiv Polytechnic Institute</li>
-      </ol>
-Contact with me:<br>
-      <img style="width: 16px; height: 16px;" alt="phone" src="../img/con_mobile.png">
-
-Phones: 097 933 4861<br>
-&nbsp; &nbsp;naxa..(Skype)<br>
-&nbsp; &nbsp;e-mail: viktor<big><span style="font-weight: bold;">.</span></big>mytsa@gmail.com</td>
+                          <ul>
+                            <li>Studied:</li>
+                          </ul>
 
 
-	<td style="vertical-align: 0px;">
+                          <ol start="1">
+                            <li>&nbsp; &nbsp; &nbsp; &nbsp;Physology at NU "Lviv Polytechnic"</li>
+                            <li>&nbsp; &nbsp; &nbsp; &nbsp;Ivan Franko National University of Lviv</li>
+                            <li>&nbsp; &nbsp; &nbsp; &nbsp;Mykolaiv Polytechnic Institute</li>
+                          </ol>
+                                    Contact with me:<br>
+                            <img style="width: 16px; height: 16px;" alt="phone" src="../img/con_mobile.png">
+
+                                Phones: 097 933 4861<br>
+                                &nbsp; &nbsp;naxa..(Skype)<br>
+                                &nbsp; &nbsp;e-mail: viktor<big><span style="font-weight: bold;">.</span></big>mytsa@gmail.com
+                    </td>
 
 
-		
-      <h2> Photo</h2>
-
-        
-      <div style="text-align: center;"><img style="width: 50%; height: 50%;" src="../img/Viktor.jpg" alt="Viktor Mytsa">
-			<br>
-
-
-	</div>
-      </td>
-
-		</tr>
-
-
-	<tr>
-      <td colspan="2" style="padding: 5px; background-color: yellow; top: 200px;">
+                    <td style="vertical-align: 0px;">
 
 
 
-		
-      <h3 style="text-align: center; color: black;">
-			POWER WITH FLASK
-		</h3>
-
-		
-      <div style="font-size: 10px;">
-
-			Desing by
-      <div style="font-size: 14px;">Viktor Mytsa</div>
+                          <h2> Photo</h2>
 
 
-		</div>
+                          <div style="text-align: center;"><img style="width: 70%; height: 70%;" src="../img/Viktor.jpg" alt="Viktor Mytsa"> <br></div>
+                    </td>
+                </tr>
 
-      </td>
 
-    </tr>
-  </tbody>
-</table>
+                <tr>
+                      <td colspan="2" style="padding: 5px; background-color: yellow; top: 200px;">
+                          <h3>POWER WITH FLASK  </h3>
+
+                          <div style="font-size: 10px;">Desing by</div>
+                          <div style="font-size: 14px;">Viktor Mytsa</div>
+                      </td>
+
+                </tr>
+              </tbody>
+        </table>
 
 </body>
 </html>
