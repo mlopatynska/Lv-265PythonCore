@@ -1,0 +1,16 @@
+body {
+background-color: blue
+}
+
+H1 {
+  color: red;
+  font-size: 35px;
+  font-family: courier;
+  text-align: center;
+}
+
+H2{
+    color: green;
+    font-size: 25px;
+    margin-left: 50px;
+}
