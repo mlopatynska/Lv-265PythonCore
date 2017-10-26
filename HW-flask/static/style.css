@@ -1,36 +1,45 @@
 body {
-    background-color: black;
+    background-color: #928d8d;
     }
-#main {
-display: flex;
-justify-content: space-around;
-    }
+
+.restyle, .mb-3 {
+color: black;
+
+}
+
 a {
     color: white;
-    font-size : 40px;
+    font-size : 30px;
     text-decoration: none;
 }
 
 h1 {
-margin-left: 15px;
+margin: 0 0 20px 15px;
 color : white;
 font-size : 40px;
 }
 
-p,li {
+p {
 color : white;
 font-size : 20px;
+margin: 0 0 0 20px;
 }
 
 #aboutme-pic{
-    float: right;
+    float: left;
     margin: 20px;
 }
-
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
+.glyphicon {
+top: 200px
+}
 
-.jumbotron {
-background-color: inherit;
+.card-header {
+background-color: #bdbdbd;
+}
+
+.item {
+background-color: #ececec;
 }
